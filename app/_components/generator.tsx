@@ -17,11 +17,11 @@ import { useState, useRef, useEffect } from "react";
 const LOCATION_DATA: Record<string, { label: string; address: string }> = {
   lagos: {
     label: "LAGOS",
-    address: "Lagos, Nigeria",
+    address: "Lasu Innovation Hub,Lagos",
   },
   ogbomosho: {
     label: "OGBOMOSO",
-    address: "Oluseun onigbide resource Center,ogbomoso,Oyo state",
+    address: "Oluseun onigbide resource Center,Ogbomoso.",
   },
   ilorin: {
     label: "ILORIN",
@@ -166,6 +166,7 @@ const Generator = () => {
     link.download = `campfire-dp-${name || "user"}.png`;
     link.href = canvasUrl;
     link.click();
+    window.location.reload();
   };
 
   return (
