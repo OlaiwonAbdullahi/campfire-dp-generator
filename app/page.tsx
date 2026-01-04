@@ -9,16 +9,15 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { ChevronRight, DownloadCloud, Upload, Star } from "lucide-react";
+import { DownloadCloud, Upload } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
 
 const Page = () => {
   const [name, setName] = useState("");
-  const [phone, setPhone] = useState("");
   const [location, setLocation] = useState("");
-  const [imagePreview, setImagePreview] = useState<string | null>(null);
+  const [ImagePreview, setImagePreview] = useState<string | null>(null);
 
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -87,7 +86,7 @@ const Page = () => {
                           value={name}
                           onChange={(e) => setName(e.target.value)}
                           placeholder="Enter your full name"
-                          className="w-full rounded-xl bg-white/5 border border-white/10 h-12 px-4 text-white placeholder:text-white/30"
+                          className="w-full rounded-xl bg-white/5 border border-white/10 h-9 px-4 text-white placeholder:text-white/30"
                         />
                       </div>
 
@@ -124,7 +123,7 @@ const Page = () => {
                         <Label className="text-xs italic uppercase tracking-widest text-white">
                           Upload Photo
                         </Label>
-                        <label className="flex flex-col items-center justify-center w-full h-32 border-2 border-white/10 border-dashed rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition">
+                        <label className="flex flex-col items-center justify-center w-full h-36 border-2 border-white/10 border-dashed rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition">
                           <div className="flex flex-col items-center justify-center pt-5 pb-6">
                             <Upload className="h-8 w-8 text-white/40 mb-2" />
                             <p className="text-xs text-white/80">
