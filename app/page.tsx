@@ -86,7 +86,7 @@ const Page = () => {
                           value={name}
                           onChange={(e) => setName(e.target.value)}
                           placeholder="Enter your full name"
-                          className="w-full rounded-xl bg-white/5 border border-white/10 h-9 px-4 text-white placeholder:text-white/30"
+                          className="w-full rounded-xl bg-white/5 border border-white/10 h-9 px-4 text-white placeholder:text-white/60"
                         />
                       </div>
 
@@ -95,12 +95,14 @@ const Page = () => {
                           Select Campfire Location
                         </Label>
                         <Select onValueChange={setLocation}>
-                          <SelectTrigger className="w-full  rounded-xl bg-white/5 border border-white/10 h-12 px-4 flex items-center justify-between">
+                          <SelectTrigger className="w-full rounded-xl bg-white/5 border border-white/10 h-12 px-4 flex items-center justify-between">
+                            {" "}
                             <SelectValue
                               placeholder="Select Campfire Location"
-                              className=" text-white placeholder:text-white"
-                            />
+                              className=" text-white data-placeholder:text-white"
+                            />{" "}
                           </SelectTrigger>
+
                           <SelectContent className=" bg-foreground/50 backdrop-blur-3xl text-white font-dreamplanner border border-white/10 rounded-xl shadow-lg">
                             <SelectGroup>
                               <SelectLabel className=" text-white">
