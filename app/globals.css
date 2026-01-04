@@ -125,10 +125,18 @@
 }
 
 @font-face {
-  font-family: dreamplanner;
-  src: url("../public/font/dreamplanner.otf");
+  font-family: "dreamplanner";
+  src: url("/font/dreamplanner.otf") format("opentype");
 }
 
 .font-dreamplanner {
-  font-family: var(--font-dreamplanner);
+  font-family: "dreamplanner", sans-serif;
+}
+@font-face {
+  font-family: "alumni";
+  src: url("/font/alumni.ttf") format("opentype");
+}
+
+.font-alumni {
+  font-family: "alumni", sans-serif;
 }
