@@ -123,3 +123,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: dreamplanner;
+  src: url("../public/font/dreamplanner.otf");
+}
+
+.font-dreamplanner {
+  font-family: var(--font-dreamplanner);
+}
