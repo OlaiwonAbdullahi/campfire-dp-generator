@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "Game Development",
     "DP Generator",
     "Profile Picture",
-    "Hackathon 2024",
+    "Hackathon 2026",
     "Lagos Gaming",
     "Ogbomoso Tech",
     "Ilorin Developers",
