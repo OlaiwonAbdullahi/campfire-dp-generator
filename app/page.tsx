@@ -38,7 +38,7 @@ const Page = () => {
           </div>
         </div>
       </section>
-      <div className="bg-foreground">
+      <div className="bg-foreground text-white">
         <footer className="text-center py-10">built with ❤️ by HC 🇳🇬</footer>
       </div>
     </div>
