@@ -144,7 +144,6 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${dreamplanner.variable} antialiased`}
       >
         {children}
-        <footer>built with ❤️ by HC 🇳🇬</footer>
       </body>
     </html>
   );
