@@ -21,14 +21,14 @@ const LOCATION_DATA: Record<string, { label: string; address: string }> = {
   },
   ogbomosho: {
     label: "OGBOMOSO",
-    address: "Oluseun onigbide resource Center,Ogbomoso.",
+    address: "OORC Innovation Hub,Ogbomoso.",
   },
   ilorin: {
     label: "ILORIN",
     address: "Ilorin, Kwara state",
   },
   abeokuta: {
-    label: "ABEOKUTA",
+    label: "OGUN",
     address: "Abeokuta, Ogun state",
   },
   ph: {
