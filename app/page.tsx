@@ -38,7 +38,9 @@ const Page = () => {
           </div>
         </div>
       </section>
-      <footer className="text-center py-10">built with ❤️ by HC 🇳🇬</footer>
+      <div className="bg-foreground">
+        <footer className="text-center py-10">built with ❤️ by HC 🇳🇬</footer>
+      </div>
     </div>
   );
 };
