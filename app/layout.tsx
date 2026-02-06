@@ -72,8 +72,8 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
-    apple: "/logo.svg",
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
   },
 };
 
@@ -137,8 +137,8 @@ export default function RootLayout({
           name="googlebot"
           content="index, follow, max-video-preview: -1, max-image-preview: large, max-snippet: -1"
         />
-        <meta name="icon" content="/favicon.ico" />
-        <meta name="apple-touch-icon" content="/logo.svg" />
+        <meta name="icon" content="/favicon.svg" />
+        <meta name="apple-touch-icon" content="/favicon.svg" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${dreamplanner.variable} antialiased`}
